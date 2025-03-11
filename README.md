@@ -1,15 +1,9 @@
-# file0-cli
+# File0 CLI
 
-To install dependencies:
+A cli tool for https://file0.io for uploading files!
 
-```bash
-bun install
-```
-
-To run:
+You must have bun installed on your system, beacuse who even use nodejs? (pstt i do but yea bun better (; )
 
 ```bash
-bun run src/cli.ts
+bunx file0 login
 ```
-
-This project was created using `bun init` in bun v1.2.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

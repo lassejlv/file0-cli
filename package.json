@@ -1,7 +1,12 @@
 {
   "name": "file0-cli",
+  "bin": "dist/cli.js",
   "module": "src/cli.ts",
   "type": "module",
+  "version": "0.1.1",
+  "scripts": {
+    "build": "bun build --target bun --format esm --minify . --outfile dist/cli.js"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/filesize": "^5.0.2",
