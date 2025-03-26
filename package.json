@@ -3,7 +3,7 @@
   "bin": "dist/cli.js",
   "module": "src/cli.ts",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "build": "bun build --target bun --format esm --minify . --outfile dist/cli.js"
   },
@@ -13,13 +13,13 @@
     "@types/progress": "^2.0.7"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.8.2"
   },
   "dependencies": {
     "chalk": "^5.4.1",
     "cli-table3": "^0.6.5",
     "clipboardy": "^4.0.0",
-    "consola": "^3.4.0",
+    "consola": "^3.4.2",
     "filesize": "^10.1.6",
     "ky": "^1.7.5",
     "ora": "^8.2.0",
